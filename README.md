@@ -144,23 +144,29 @@ Right now, to access specific animals, you might need to import the full path. L
 ## Part 4: Complete the Classification System
 
 ### Task 4.1: Implement All Animal Modules
-Expand your package to include all 10 animals from the vertebrates classification system diagram above. Each animal should:
+Expand your package to include **two animals** from **at least three** of the five classifications the vertebrates classification system diagram above, for a total of **six animal modules**. Each animal should:
 1. Be represented as its own module
 1. Have access to its classification's shared attributes
 1. Have the three unique attributes specific to that animal species from the classification diagram
 
+**Stretch Goal:**
+Complete all modules for all 10 animals in the vertebrates classification system.
+
 ##### Success
 You'll know you succeeded when:
-1. You have  10 animal modules (2 per classification)
+1. You have 6 - 10 animal modules (2 per classification)
 2. Each animal module can be imported without errors
 3. Each animal has access to its classification's shared attributes without copying them into each animal's module
 
 ### Task 4.2: Define Shared Attributes for Each Classification
-For each of the five classifications, use the classification diagram to determine the attributes that are shared by all animals in that group, and create a way to store and share those attributes.
+For **at least three** of the five classifications, use the classification diagram to determine the attributes that are shared by all animals in that group, and create a way to store and share those attributes.
+
+**Stretch Goal:**
+Complete attributes for all 10 animals in the vertebrates classification system.
 
 ##### Success
 You'll know you succeeded when:
-1. You have five shared attribute modules/files (one per classification)
+1. You have three to five shared attribute modules/files (one per classification)
 2. Attributes from the diagram are stored appropriately
 3. Individual animal modules can successfully access shared attributes
 
@@ -180,7 +186,7 @@ You'll know you succeeded when:
 
 ---
 
-## Part 5: Testing Your Package Structure
+## **Stretch Goal** Part 5: Testing Your Package Structure
 
 ### Task 5.1: Create a Comprehensive Test Script
 Expand your `main.py` file that you created in Task 1.2 to demonstrate that you can:
@@ -244,7 +250,7 @@ When you complete this lab, you should have:
    - Uses `__init__.py` files to make directories into packages
    - Allows imports at different levels of the hierarchy
 
-2. **10 animal modules** (2 per classification):
+2. **6-10 animal modules** (2 per classification):
    - Fish, Amphibians, Reptiles, Birds, Mammals
    - Each with unique attributes appropriate to that species
 
@@ -253,7 +259,7 @@ When you complete this lab, you should have:
    - Can be accessed at the package level
    - Reflect the biological characteristics of that group
 
-4. **A working main.py** that demonstrates:
+4. **Stretch Goal: A working main.py** that demonstrates:
    - Importing packages with aliases
    - Accessing shared attributes at the package level
    - Accessing individual animals and their attributes
