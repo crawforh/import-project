@@ -13,7 +13,6 @@ By the end of this lab, you will be able to:
 ### Setup Instructions
 
 1. Follow these [setup instructions](./setup.md), then return here to get started
-1. Create a  in your workspace
 1. Navigate to the new `animal-classification` directory in your terminal
 1. You'll build your entire package structure from scratch in this directory
 
