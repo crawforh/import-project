@@ -12,9 +12,10 @@ By the end of this lab, you will be able to:
 
 ### Setup Instructions
 
-1. Create a new directory called `animal-classification` in your workspace
-2. Navigate to this directory in your terminal
-3. You'll build your entire package structure from scratch in this directory
+1. Follow these [setup instructions](./setup.md), then return here to get started
+1. Create a  in your workspace
+1. Navigate to the new `animal-classification` directory in your terminal
+1. You'll build your entire package structure from scratch in this directory
 
 ### Overview
 In this lab, you'll create a package structure that models the biological classification of vertebrate animals. You'll organize animals into a hierarchy that mirrors taxonomic relationships, and learn how Python's import system allows you to access attributes and modules at different levels of the hierarchy.
