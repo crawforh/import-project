@@ -2,14 +2,14 @@
 
 ## Step 1: Create a GitHub Codespace for the warm-up exercises
 
-- From the homepage of this repo, click on the green `Code` button and choose the `Codespaces` tab and click on the green `Create codespace on main` button:
+From the homepage of this repo, click on the green `Code` button and choose the `Codespaces` tab and click on the green `Create codespace on main` button:
 
 The browser-based VSCode window will open automatically. Your Codespace is built and ready to use when you can see the lab files in the Code Explorer window (left) and have a prompt in the terminal window (bottom).
 
 ## Step 2: Use your Codespace to make a fork of the original repo
 
 - Add a directory called `animal-classification` to your workspace.
-- Add and commit the change you just made. At this point, the Codespace will notify you that you don't have push access to the original repo.
+- Add and commit the change you just made. Use the `--allow-empty` flag to allow an empty commit (or create a temp file in the project). At this point, the Codespace will notify you that you don't have push access to the original repo.
 - Type `Y` to proceed. GitHub will create a fork of the original repo within your personal org.
 - Push your change to your newly forked lab repo!
 

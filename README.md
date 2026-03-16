@@ -65,4 +65,4 @@ You'll also create a `main.py` file at the root of your workspace to test your p
 
 ---
 
-Next Up: [Part 1: Understanding Packages vs. Modules](01_part1.md)
+Next Up: [Part 1: Understanding Packages vs. Modules](lab_spec/01_part1.md)
