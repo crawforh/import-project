@@ -63,6 +63,8 @@ You'll create a package hierarchy that mirrors the biological classification of 
 
 You'll also create a `main.py` file at the root of your workspace to test your package structure.
 
+If you're ready, go to the first part of the lab using the navigation below!
+
 ---
 
 Next Up: [Part 1: Understanding Packages vs. Modules](lab_spec/01_part1.md)

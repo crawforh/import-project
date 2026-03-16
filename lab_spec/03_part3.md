@@ -1,9 +1,9 @@
 ## Part 3: Package-Level Imports with `__init__.py`
 
-Right now, to access specific animals, you might need to import the full path. Let's explore how `__init__.py` can control what's accessible when you import a package.
+Right now, access to attributes for a specific fish requires importing the full path to that fish. Let's explore how `__init__.py` can control what's accessible when you import a package.
 
 ### Task 3.1: Make Modules Accessible at Package Level
-**Goal:** Be able to import the fish package into `main.py` and access individual fish (like shark) through it, without having to import the full path to each fish.
+**Goal:** Import the fish package into `main.py` and access individual fish (like shark) through it, without having to import the full path to each fish.
 
 **Experiment:**
 1. Try importing just the `fish` package into `main.py` and access the `shark` module through it. Try both absolute and relative imports. 
@@ -15,7 +15,7 @@ Right now, to access specific animals, you might need to import the full path. L
 - What role does `__init__.py` play in controlling access?
 
 ### Task 3.2: Make Attributes Accessible at Package Level
-**Goal:** Be able to access shared fish attributes (like `has_scales`) directly from the fish package, not just from individual fish modules.
+**Goal:** Access shared fish attributes (like `has_scales`) directly from the `fish` package, not just from individual fish modules.
 
 **Experiment:**
 1. In `main.py`, try accessing a shared attribute directly from the `fish` package without going through `shark`
