@@ -1,3 +1,6 @@
+# Import is Important Tutorial
+## Lab: Animal Classification System
+
 ## Part 2: Sharing Attributes Within a Package
 
 Each classification level has attributes that apply to all animals in that category. For example, all fish share certain characteristics, while all mammals share different characteristics.

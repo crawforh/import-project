@@ -1,9 +1,9 @@
 # Import is Important Tutorial
 ## Lab: Animal Classification System
 
-## Challenges and Extensions
+### Challenges and Extensions
 
-### Challenge 1: The `__all__` Variable
+#### Challenge 1: The `__all__` Variable
 Research the special `__all__` variable in Python packages.
 
 **Experiment:**
@@ -18,7 +18,7 @@ Research the special `__all__` variable in Python packages.
 - Why might `__all__` be useful in a large codebase?
 - When might you want to exclude certain items from `*` imports?
 
-### Challenge 2: Multi-Level Attribute Hierarchy
+#### Challenge 2: Multi-Level Attribute Hierarchy
 Currently, you have shared attributes at the classification level (fish, mammals, etc.). What about attributes that apply to all cold-blooded or all warm-blooded animals?
 
 **Challenge:**
@@ -31,7 +31,7 @@ Currently, you have shared attributes at the classification level (fish, mammals
 - How can you design your hierarchy to avoid conflicts?
 - Can an animal access attributes from multiple levels of the hierarchy?
 
-### Challenge 3: Circular Import Prevention
+#### Challenge 3: Circular Import Prevention
 **Experiment:**
 1. Try to create two modules that import from each other
 2. Observe and document what happens
@@ -43,7 +43,7 @@ Currently, you have shared attributes at the classification level (fish, mammals
 - What error messages do you see?
 - What are some architectural patterns to avoid circular dependencies?
 
-### Challenge 4: Dynamic Module Access
+#### Challenge 4: Dynamic Module Access
 Write code that can dynamically load modules based on string names.
 
 **Goal:** Create a function that takes a classification name as a string and returns the appropriate module, so you can write code like:

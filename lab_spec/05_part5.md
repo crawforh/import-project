@@ -1,7 +1,9 @@
+# Import is Important Tutorial
+## Lab: Animal Classification System
 
-## **Stretch Goal** Part 5: Testing Your Package Structure
+### **Stretch Goal** Part 5: Testing Your Package Structure
 
-### Task 5.1: Create a Comprehensive Test Script
+#### Task 5.1: Create a Comprehensive Test Script
 Expand your `main.py` file that you created in Task 1.2 to demonstrate that you can:
 
 1. **Import entire classifications** and access their shared attributes
@@ -15,7 +17,7 @@ Your test script should clearly demonstrate that:
 - Each animal has both shared attributes and unique attributes
 - The hierarchy works for both warm-blooded and cold-blooded vertebrates
 
-### Task 5.2: Experiment with Different Import Styles
+#### Task 5.2: Experiment with Different Import Styles
 Python offers multiple ways to import modules and attributes. Experiment with different import styles to understand their trade-offs:
 
 **Experiment with:**
@@ -31,7 +33,7 @@ Python offers multiple ways to import modules and attributes. Experiment with di
 - Namespace pollution: What names are added to your current namespace?
 - Flexibility: How easy is it to access multiple items?
 
-#### Deliverable (Optional)
+##### Deliverable (Optional)
 Create a file called `import_experiments.py` that demonstrates each import style with comments explaining the trade-offs you observed.
 
 ---

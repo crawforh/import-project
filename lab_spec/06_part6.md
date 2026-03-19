@@ -1,4 +1,7 @@
-## Part 6: Reflection
+# Import is Important Tutorial
+## Lab: Animal Classification System
+
+### Part 6: Reflection
 
 After completing the lab, reflect on these questions:
 

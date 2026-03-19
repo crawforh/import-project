@@ -1,3 +1,5 @@
+# Import is Important Tutorial
+## Lab: Animal Classification System
 
 ## Part 1: Understanding Packages vs. Modules
 
