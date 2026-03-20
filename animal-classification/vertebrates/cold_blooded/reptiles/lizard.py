@@ -1,0 +1,1 @@
+from .attributes import lays_eggs, skin_type, has_scales

@@ -1,0 +1,1 @@
+from vertebrates.warm_blooded.birds.attributes import has_wings, has_feathers, egg_type

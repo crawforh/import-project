@@ -1,0 +1,1 @@
+from vertebrates.cold_blooded.amphibians.attributes import egg_type, skin_type, breathes_through

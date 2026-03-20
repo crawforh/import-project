@@ -1,0 +1,1 @@
+from vertebrates.warm_blooded.attributes import has_hair, birth_type, breathes_through
