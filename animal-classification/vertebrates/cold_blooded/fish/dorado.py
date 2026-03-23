@@ -1,0 +1,1 @@
+from .attributes import has_fins, has_scales, breathes_through
